@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AKZSA</string>
+    <string name="ime_label">AKZSA वॉइस कीबोर्ड</string>
+    <string name="subtype_english">अंग्रेज़ी (US)</string>
+    <string name="subtype_hindi">हिन्दी (भारत)</string>
+    <string name="splash_tagline">Type. Speak. Create. More.</string>
+    <string name="cd_close_keyboard">कीबोर्ड छुपाएँ</string>
+    <string name="cd_open_settings">AKZSA सेटिंग्स खोलें</string>
+    <string name="cd_voice_talk">वॉइस टाइपिंग शुरू या बंद करें</string>
+    <string name="cd_back_to_typing">टाइपिंग पर वापस जाएँ</string>
+
+    <string name="gif_panel_title">GIF</string>
+    <string name="gif_search_hint">GIPHY खोजने के लिए नीचे टाइप करें</string>
+    <string name="cd_gif_search">GIF खोजें</string>
+    <string name="cd_gif_close">GIF पैनल बंद करें</string>
+    <string name="gif_trending">ट्रेंडिंग GIF</string>
+    <string name="gif_powered_by">GIPHY द्वारा संचालित</string>
+    <string name="gif_api_key_missing">GIPHY API कुंजी सेट नहीं है (README देखें)</string>
+    <string name="gif_searching">खोजा जा रहा है…</string>
+    <string name="gif_none_found">कोई GIF नहीं मिला</string>
+    <string name="gif_tap_to_send">भेजने के लिए किसी GIF पर टैप करें</string>
+    <string name="gif_results_for">\"%1$s\" के परिणाम · भेजने के लिए टैप करें</string>
+    <string name="gif_search_failed">GIF खोज विफल रही। इंटरनेट जाँचें।</string>
+    <string name="cd_gif_send_item">GIF भेजें: %1$s</string>
+    <string name="gif_default_title">GIF</string>
+
+    <string name="cd_emoji_insert">इमोजी %1$s जोड़ें</string>
+    <string name="cd_emoji_category">इमोजी श्रेणी: %1$s</string>
+    <string name="emoji_close">✕ बंद करें</string>
+    <string name="cd_emoji_close">इमोजी पैनल बंद करें</string>
+
+    <string name="clipboard_label">📋 क्लिपबोर्ड</string>
+    <string name="cd_clipboard_paste_item">क्लिपबोर्ड आइटम पेस्ट करें: %1$s</string>
+    <string name="clipboard_clear">🗑 साफ़ करें</string>
+    <string name="cd_clipboard_clear">क्लिपबोर्ड इतिहास साफ़ करें</string>
+
+    <string name="cursor_select_all">सभी चुनें</string>
+    <string name="cursor_cut">कट करें</string>
+    <string name="cursor_copy">कॉपी करें</string>
+    <string name="cursor_paste">पेस्ट करें</string>
+    <string name="cd_cursor_left">कर्सर बाईं ओर ले जाएँ</string>
+    <string name="cd_cursor_right">कर्सर दाईं ओर ले जाएँ</string>
+    <string name="cd_cursor_up">कर्सर ऊपर ले जाएँ</string>
+    <string name="cd_cursor_down">कर्सर नीचे ले जाएँ</string>
+
+    <string name="status_settings_load_failed">सेटिंग्स लोड नहीं हो सकीं</string>
+</resources>

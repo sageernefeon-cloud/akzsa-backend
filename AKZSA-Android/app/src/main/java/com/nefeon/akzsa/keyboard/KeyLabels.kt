@@ -1,0 +1,46 @@
+package com.nefeon.akzsa.keyboard
+
+/** Screen-reader descriptions for keys whose visible label is a symbol or abbreviation. */
+object KeyLabels {
+    fun describe(label: String): String = when (label) {
+        "⌫" -> "Delete"
+        "⇧" -> "Shift"
+        "⇪" -> "Caps lock on"
+        "?123" -> "Switch to numbers and symbols"
+        "ABC" -> "Switch to letters"
+        "अ/A", "A/अ" -> "Switch between English and Hindi keys"
+        "अआ" -> "Hindi vowels"
+        "कख" -> "Hindi consonants"
+        "space" -> "Space"
+        "↵" -> "Enter"
+        "Go" -> "Go"
+        "Search" -> "Search"
+        "Send" -> "Send"
+        "Next" -> "Next field"
+        "Done" -> "Done"
+        "Prev" -> "Previous field"
+        "🎙" -> "Start voice typing"
+        "🔒" -> "Voice typing disabled in this field"
+        "■" -> "Stop voice typing"
+        "⏳" -> "Processing speech, please wait"
+        "Fix" -> "Fix grammar and spelling"
+        "MORE", "MORE ✓" -> "Show more tools"
+        "😊 Emoji" -> "Open emoji picker"
+        "⌕" -> "Search"
+        "⚙" -> "Open AKZSA settings"
+        "⌄", "hide" -> "Hide keyboard"
+        "switch" -> "Switch to another keyboard"
+        "mic" -> "Voice input"
+        "😊" -> "Open emoji picker"
+        "⌨" -> "Switch to another keyboard"
+        "◀" -> "Move cursor left"
+        "▶" -> "Move cursor right"
+        "▲" -> "Move cursor up"
+        "▼" -> "Move cursor down"
+        "," -> "Comma"
+        "." -> "Period"
+        "।" -> "Hindi full stop"
+        "्" -> "Halant"
+        else -> label
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  AKZSA Midnight palette. Source of truth: com.nefeon.akzsa.design.GraphiteSignal.
+  GraphiteSignalTest fails if any gs_* value below drifts from the Kotlin tokens.
+-->
+<resources>
+    <!-- Light -->
+    <color name="gs_light_background">#F5F6F8</color>
+    <color name="gs_light_keyboard">#F0F1F4</color>
+    <color name="gs_light_surface">#FFFFFF</color>
+    <color name="gs_light_secondary_surface">#E8ECF7</color>
+    <color name="gs_light_text_primary">#252A33</color>
+    <color name="gs_light_text_secondary">#747C89</color>
+    <color name="gs_light_border">#DFE3E9</color>
+    <color name="gs_light_accent">#5267C9</color>
+    <color name="gs_light_on_accent">#FFFFFF</color>
+    <color name="gs_light_voice">#28A6B8</color>
+    <color name="gs_light_focus">#5267C9</color>
+    <!-- Dark -->
+    <color name="gs_dark_background">#202329</color>
+    <color name="gs_dark_keyboard">#252A31</color>
+    <color name="gs_dark_surface">#323842</color>
+    <color name="gs_dark_secondary_surface">#353E50</color>
+    <color name="gs_dark_text_primary">#F2F4F7</color>
+    <color name="gs_dark_text_secondary">#A8B0BC</color>
+    <color name="gs_dark_border">#3D444E</color>
+    <color name="gs_dark_accent">#7890ED</color>
+    <color name="gs_dark_on_accent">#14172A</color>
+    <color name="gs_dark_voice">#48B9C8</color>
+    <color name="gs_dark_focus">#7890ED</color>
+    <!-- Launcher icon -->
+    <color name="ic_launcher_background">#252A31</color>
+</resources>

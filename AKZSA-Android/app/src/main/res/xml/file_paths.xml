@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Only GIFs downloaded for the keyboard GIF panel are shareable (auto-trimmed to 20 files). -->
+    <cache-path name="gif_cache" path="gifs/" />
+</paths>

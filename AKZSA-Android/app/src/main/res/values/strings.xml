@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AKZSA</string>
+    <string name="ime_label">AKZSA One Mic AI Keyboard</string>
+    <string name="subtype_english">English (US)</string>
+    <string name="subtype_hindi">Hindi (India)</string>
+    <string name="splash_tagline">Type. Speak. Create. More.</string>
+    <string name="cd_close_keyboard">Hide keyboard</string>
+    <string name="cd_open_settings">Open AKZSA settings</string>
+    <string name="cd_voice_talk">Start or stop voice typing</string>
+    <string name="cd_back_to_typing">Back to typing</string>
+
+    <!-- GifPanel.kt (P5-3): the GIF panel's own chrome, not anything from a search result. -->
+    <string name="gif_panel_title">GIF</string>
+    <string name="gif_search_hint">Type below to search GIPHY</string>
+    <string name="cd_gif_search">Search GIFs</string>
+    <string name="cd_gif_close">Close GIF panel</string>
+    <string name="gif_trending">Trending GIFs</string>
+    <string name="gif_powered_by">Powered by GIPHY</string>
+    <string name="gif_api_key_missing">GIPHY API key not set (see README)</string>
+    <string name="gif_searching">Searching…</string>
+    <string name="gif_none_found">No GIFs found</string>
+    <string name="gif_tap_to_send">Tap a GIF to send it</string>
+    <string name="gif_results_for">Results for \"%1$s\" · tap to send</string>
+    <string name="gif_search_failed">GIF search failed. Check internet.</string>
+    <string name="cd_gif_send_item">Send GIF: %1$s</string>
+    <string name="gif_default_title">GIF</string>
+
+    <!-- EmojiPanel.kt (P5-3) -->
+    <string name="cd_emoji_insert">Insert emoji %1$s</string>
+    <string name="cd_emoji_category">Emoji category: %1$s</string>
+    <string name="emoji_close">✕ Close</string>
+    <string name="cd_emoji_close">Close emoji panel</string>
+
+    <!-- ClipboardRow.kt (P5-3) -->
+    <string name="clipboard_label">📋 Clipboard</string>
+    <string name="cd_clipboard_paste_item">Paste clipboard item: %1$s</string>
+    <string name="clipboard_clear">🗑 Clear</string>
+    <string name="cd_clipboard_clear">Clear clipboard history</string>
+
+    <!-- CursorRow.kt (P5-3) -->
+    <string name="cursor_select_all">Select All</string>
+    <string name="cursor_cut">Cut</string>
+    <string name="cursor_copy">Copy</string>
+    <string name="cursor_paste">Paste</string>
+    <string name="cd_cursor_left">Move cursor left</string>
+    <string name="cd_cursor_right">Move cursor right</string>
+    <string name="cd_cursor_up">Move cursor up</string>
+    <string name="cd_cursor_down">Move cursor down</string>
+
+    <!-- AkzsaInputMethodService.kt (P5-3) -->
+    <string name="status_settings_load_failed">Settings could not be loaded</string>
+</resources>

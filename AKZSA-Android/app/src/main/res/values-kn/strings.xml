@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AKZSA</string>
+    <string name="ime_label">AKZSA ಧ್ವನಿ ಕೀಬೋರ್ಡ್</string>
+    <string name="subtype_english">ಇಂಗ್ಲಿಷ್ (US)</string>
+    <string name="subtype_hindi">ಹಿಂದಿ (ಭಾರತ)</string>
+    <string name="splash_tagline">Type. Speak. Create. More.</string>
+    <string name="cd_close_keyboard">ಕೀಬೋರ್ಡ್ ಮರೆಮಾಡಿ</string>
+    <string name="cd_open_settings">AKZSA ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+    <string name="cd_voice_talk">ಧ್ವನಿ ಟೈಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ ಅಥವಾ ನಿಲ್ಲಿಸಿ</string>
+    <string name="cd_back_to_typing">ಟೈಪಿಂಗ್‌ಗೆ ಹಿಂತಿರುಗಿ</string>
+
+    <string name="gif_panel_title">GIF</string>
+    <string name="gif_search_hint">GIPHY ಹುಡುಕಲು ಕೆಳಗೆ ಟೈಪ್ ಮಾಡಿ</string>
+    <string name="cd_gif_search">GIF ಹುಡುಕಿ</string>
+    <string name="cd_gif_close">GIF ಪ್ಯಾನಲ್ ಮುಚ್ಚಿ</string>
+    <string name="gif_trending">ಟ್ರೆಂಡಿಂಗ್ GIF</string>
+    <string name="gif_powered_by">GIPHY ಮೂಲಕ ಚಾಲಿತ</string>
+    <string name="gif_api_key_missing">GIPHY API ಕೀ ಹೊಂದಿಸಲಾಗಿಲ್ಲ (README ನೋಡಿ)</string>
+    <string name="gif_searching">ಹುಡುಕುತ್ತಿದೆ…</string>
+    <string name="gif_none_found">ಯಾವುದೇ GIF ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="gif_tap_to_send">ಕಳುಹಿಸಲು ಒಂದು GIF ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="gif_results_for">\"%1$s\" ಗಾಗಿ ಫಲಿತಾಂಶಗಳು · ಕಳುಹಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="gif_search_failed">GIF ಹುಡುಕಾಟ ವಿಫಲವಾಗಿದೆ. ಇಂಟರ್ನೆಟ್ ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="cd_gif_send_item">GIF ಕಳುಹಿಸಿ: %1$s</string>
+    <string name="gif_default_title">GIF</string>
+
+    <string name="cd_emoji_insert">ಎಮೋಜಿ %1$s ಸೇರಿಸಿ</string>
+    <string name="cd_emoji_category">ಎಮೋಜಿ ವರ್ಗ: %1$s</string>
+    <string name="emoji_close">✕ ಮುಚ್ಚಿ</string>
+    <string name="cd_emoji_close">ಎಮೋಜಿ ಪ್ಯಾನಲ್ ಮುಚ್ಚಿ</string>
+
+    <string name="clipboard_label">📋 ಕ್ಲಿಪ್‌ಬೋರ್ಡ್</string>
+    <string name="cd_clipboard_paste_item">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಐಟಂ ಅಂಟಿಸಿ: %1$s</string>
+    <string name="clipboard_clear">🗑 ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="cd_clipboard_clear">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಇತಿಹಾಸ ತೆರವುಗೊಳಿಸಿ</string>
+
+    <string name="cursor_select_all">ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="cursor_cut">ಕತ್ತರಿಸಿ</string>
+    <string name="cursor_copy">ನಕಲಿಸಿ</string>
+    <string name="cursor_paste">ಅಂಟಿಸಿ</string>
+    <string name="cd_cursor_left">ಕರ್ಸರ್ ಅನ್ನು ಎಡಕ್ಕೆ ಸರಿಸಿ</string>
+    <string name="cd_cursor_right">ಕರ್ಸರ್ ಅನ್ನು ಬಲಕ್ಕೆ ಸರಿಸಿ</string>
+    <string name="cd_cursor_up">ಕರ್ಸರ್ ಅನ್ನು ಮೇಲಕ್ಕೆ ಸರಿಸಿ</string>
+    <string name="cd_cursor_down">ಕರ್ಸರ್ ಅನ್ನು ಕೆಳಕ್ಕೆ ಸರಿಸಿ</string>
+
+    <string name="status_settings_load_failed">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+</resources>

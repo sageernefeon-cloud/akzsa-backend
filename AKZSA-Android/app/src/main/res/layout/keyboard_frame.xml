@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Static outer frame of the AKZSA keyboard. Inflated once by KeyboardRenderer.inflateFrame().
+  Top to bottom: status line, input strip (+ / text / send), icon toolbar, suggestion chips, panels,
+  pending-result card (Grammar Fix and other AI previews), key rows. Colours and sizes come from the
+  AKZSA Midnight palette and the layout policy in code.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:importantForAccessibility="yes">
+
+    <TextView
+        android:id="@+id/keyboard_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingStart="8dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="2dp"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_strip_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_toolbar_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_chips_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_panel_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <!-- Result waiting for review: Before / After plus Cancel, Regenerate and Apply. Replaces the key rows while visible. -->
+    <LinearLayout
+        android:id="@+id/keyboard_preview_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_rows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+</LinearLayout>
